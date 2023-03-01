@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+body{
+ 
+}
+
+nav {
+  background-color: black;
+  height: 60px;
+  padding: 15px;
+  color: white;
+}
+
+#flexcontainer {
+  display: flex;
+  background-color: white;
+  margin: 0 20px;
+}
+
+#search {
+  box-sizing: border-box;
+  /* display: flex;
+    position: absolute; */
+  width: 80%;
+  height: 55px;
+  left: 29px;
+  top: 104px;
+  background: #D9D9D9;
+  border: 1px solid #000000;
+}
+
+#btn {
+  /* position: absolute;
+  display: flex; */
+  width: 217px;
+  height: 55px;
+  right: 1268px;
+  top: 103px;
+  background: #000000;
+  color: white;
+  margin-left: 10px;
+}
+
+.main2>button {
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 55px;
+  width: 14%;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  color: black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 300px;
+  width: 70%;
+  outline: none;
+  text-align: center;
+}
+
+.box td {
+  border: 1px solid black;
+  padding-left: 20px;
+}
+
+td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  padding: 20px;
+}
+
+.tablebox {
+  margin: 20px;
+}
+
+input {
+  height: 30px;
+  width: 150px;
+  padding: 10px;
+}
